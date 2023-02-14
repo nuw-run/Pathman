@@ -1,5 +1,5 @@
 #if os(Linux)
-import struct Glibc.__socket_type
+import Glibc
 #endif
 
 public struct SocketType: Hashable {
